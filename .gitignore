@@ -1,0 +1,35 @@
+# Ignorar binários e objetos
+*.o
+*.exe
+*.dll
+*.so
+*.a
+# Manter libs estáticas
+!libs/**/*.a
+!libs/**/*.so
+!libs/**/*.dll
+
+# Ignorar executáveis finais
+gerente_cli
+gerente_gui
+
+# Ignorar pastas de build/dist
+dist/
+build/
+
+# Ignorar dados de teste e logs
+data/alunos/*.bin
+data/treinos/*.bin
+data/tmp/*
+*.log
+
+# Manter o arquivo de índice vazio se quiser, ou ignorar se for gerado
+# !data/alunos.idx
+
+# Ignorar configurações locais do editor (opcional)
+.vscode/
+
+# EXCEÇÃO IMPORTANTE: Rastrear ferramentas renomeadas
+!redist/pdf_build.exe
+!redist/pdf_print.exe
+!redist/pdf_build

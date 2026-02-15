@@ -1,0 +1,19 @@
+===========================================================================
+CRÉDITOS E LICENÇAS DE TERCEIROS
+===========================================================================
+Este software utiliza componentes de terceiros renomeados para padronização.
+
+1. ENGINE DE PDF (redist/pdf_build[.exe])
+   - Original: wkhtmltopdf
+   - Licença: LGPLv3
+   - Fonte: https://wkhtmltopdf.org/
+
+2. VISUALIZADOR DE PDF (redist/pdf_print.exe)
+   - Original: SumatraPDF
+   - Licença: GPLv3
+   - Fonte: https://www.sumatrapdfreader.org/
+
+3. BIBLIOTECA GRÁFICA (libs/IUP)
+   - Original: IUP (Portable User Interface)
+   - Licença: MIT
+   - Fonte: https://www.tecgraf.puc-rio.br/iup/
