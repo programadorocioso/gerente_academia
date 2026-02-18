@@ -1,0 +1,4 @@
+icons_linux
+pdf_build
+.git
+.o

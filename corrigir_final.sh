@@ -1,3 +1,9 @@
+#!/bin/bash
+
+# ==============================================================================
+# ATUALIZANDO MAIN_CLI.C (Versão Final Estável)
+# ==============================================================================
+cat << 'EOF' > main_cli.c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -13,7 +19,7 @@ void limpar_buffer() {
 
 // A FUNÇÃO DE VISUALIZAÇÃO QUE ESTAVA FALTANDO/DANDO ERRO
 void visualizar_pdf() {
-    char caminho_completo[2048];
+    char caminho_completo[1024];
     char cwd[1024];
 
     if (getcwd(cwd, sizeof(cwd)) != NULL) {
@@ -219,3 +225,7 @@ int main() {
     }
     return 0;
 }
+EOF
+
+# Compilar e atualizar dist
+make clean && make dist

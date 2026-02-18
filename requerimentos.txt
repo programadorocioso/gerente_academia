@@ -9,7 +9,7 @@ REQUERIMENTOS DE COMPILAÇÃO E SISTEMA
 
 [2] EXECUÇÃO (LINUX)
 - GTK+ 3.0
-- Redistribuível: redist/pdf_build (wkhtmltopdf renomeado)
+- Redistribuível: redist/pdf_build (wkhtmltopdf)
 
 [3] EXECUÇÃO (WINDOWS)
 - Windows 7 SP1 ou superior
